@@ -20,7 +20,7 @@ jobs:
         steps:
             - uses: hyoo-ru/mam_build@master2
               with:
-                  package: 'company/template' #FIXME namespace of this package
+                  package: 'brbr/brbr' #FIXME namespace of this package
                   modules: 'app docs' #FIXME which modules to build, remove line if only on module at the root
 
             #FIXME remove one of the following
@@ -28,10 +28,10 @@ jobs:
             - uses: hyoo-ru/gh-deploy@v4.4.1
               if: github.ref == 'refs/heads/master'
               with:
-                  folder: 'company/template/app/-' #FIXME path to build app
+                  folder: 'brbr/brbr/app/-' #FIXME path to build app
 
             - uses: hyoo-ru/gh-deploy@v4.4.1
               if: github.ref == 'refs/heads/master'
               with:
-                  folder: 'company/template/docs/-'
+                  folder: 'brbr/brbr/docs/-'
                   target-folder: 'docs/' # Second sub-module
