@@ -1,0 +1,10 @@
+{
+	"name": "brbr_brbr_app",
+	"short_name": "brbr_brbr_app",
+	"description": "",
+	"id": "brbr_brbr_app",
+	"start_url": ".",
+	"display": "standalone",
+	"background_color": "#000000",
+	"theme_color": "#000000"
+}
