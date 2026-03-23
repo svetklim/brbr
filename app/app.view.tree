@@ -1,6 +1,6 @@
-$company_template_app $mol_book2_catalog
+$brbr_brbr_app $mol_book2_catalog
 	menu_title \Моя компания
-	Menu_logo <= Logo2 $company_template_logo
+	Menu_logo <= Logo2 $brbr_brbr_logo
 	param \page
 	plugins /
 		<= Theme $mol_theme_auto
@@ -9,14 +9,14 @@ $company_template_app $mol_book2_catalog
 			uri \https://github.com/Lyumih/richtemplate
 		<= Lighter $mol_lights_toggle
 	menu_foot /
-		<= Logout_button $company_template_button
+		<= Logout_button $brbr_brbr_button
 			title \Выйти
 	Spread_default 
 		<= Docs $mol_page 
 			body / 
 				<= Docs_uri $mol_link 
 					title \Демонстрации
-					uri \http://localhost:9080/company/template/docs/-/test.html
+					uri \http://localhost:9080/brbr/brbr/docs/-/test.html
 	spreads *
 		hello <= Page1 $mol_page
 			title \Привет $mol!
