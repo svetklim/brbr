@@ -1,0 +1,10 @@
+{
+	"name": "brbr_brbr_docs",
+	"short_name": "brbr_brbr_docs",
+	"description": "",
+	"id": "brbr_brbr_docs",
+	"start_url": ".",
+	"display": "standalone",
+	"background_color": "#000000",
+	"theme_color": "#000000"
+}
